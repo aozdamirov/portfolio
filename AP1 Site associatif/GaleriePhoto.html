@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href = "styles/style.css"/>
+		<meta charset="utf-8" />
+		<title> Galerie </title>
+	</head>
+	<body>
+		<header>
+			<p class="croix-rouge"> <strong> CROIX-ROUGE</strong></p>
+			<p>La plus grande organisation humanitaire au monde</p>
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<li class="dropdown">
+						<a href="GaleriePhoto.html">Images de l'association </a>
+						<ul class="dropdown-content">
+							<li><a href="images/CroixRouge.jpg"> Nos actions</a></li>
+							<li><a href="images/UnitéLocale.jpg"> Notre aide</a></li>
+							<li><a href="images/Medailles.png"> Nos médailles</a></li>
+							<li><a href="images/UnitéLocaleNuit.jpg"> Notre unité locale</a></li>
+						</ul>
+					</li>
+					<li><a href="Index.html">Index</a></li>
+					<li><a href="PagePresentation.html">Page de présentation</a></li>
+					<li><a href="PlanningEvenements.html">Planning de nos événements</a></li>
+					<li><a href="FormulaireInscription.html">Formulaire d'inscription</a></li>
+					<li><a href="FormulaireContact.html">Formulaire de contact</a></li>
+				</ul>
+			</nav>
+			<h2>Galerie photo </h2>
+			<br>
+			<div style="display: flex; justify-content: space-between;">
+				<div>
+					<p><a href="images/CroixRouge.jpg">
+						<img src="images/CroixRouge1.jpg" alt="Croix rouge" title="Nos actions"> </a></p>
+				</div>
+				<div>
+					<p><a href="images/UnitéLocale.jpg">
+						<img src="images/UnitéLocale1.jpg" alt="Unité locale de Nimes" title="Unité locale de Nimes"> </a></p>
+				</div>
+			</div>
+			<div style="display: flex; justify-content: space-between;">
+				<div>
+					<p><a href="images/Medailles.png">
+						<img src="images/Medailles1.png" alt="Médailles" title="Médailles pour les bénévoles de la Croix-Rouge française"
+						></a></p>
+				</div>
+				<div>
+					<p><a href="images/UnitéLocaleNuit.jpg">
+						<img src="images/UnitéLocaleNuit1.jpg" alt="Unité locale de Nimes, devant maison carré" title="L'unité locale de Nimes devant la Maison Carré"></a></p>
+				</div>
+			</div>
+			<br>
+			<label for="num">Nos numéros :</label>
+			<select id="num" name="num">
+				<option value="num1">07 22 11 33 44</option>
+				<option value="num2">88 33 23 51 77</option>
+			</select>
+			<footer>
+				<a href="FormulaireContact.html" >Contact</a>
+				<p id="footertext"> Fax 01 44 14 69 27</p>
+			</footer>
+
+		</section>
+	</body>
+</html>
