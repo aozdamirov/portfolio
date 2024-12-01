@@ -1,0 +1,92 @@
+/* Styles du header */
+header {
+	background-color: #bbbbbb;
+	max-width: 1000px; /* Largeur maximale */
+	padding: 20px; /* Espacement intérieur */
+	margin: 10px auto 10px; /* Marge (haut, gauche/droite, bas) */
+	font: 1.155em/1.3 My Gill Sans, Lato, sans-serif; /* Police de caractère et espacement entre lignes */
+	box-shadow: 0em .1em 1em #000; /* Ombre */
+
+	font-size: 35px; /* Taille de la police */
+
+
+}
+
+/* Styles de la section */
+section {
+
+	max-width: 1000px; /* Largeur maximale de la section */
+	padding: 20px; /* Espacement intérieur de la section */
+	margin: 10px auto 10px; /* Marge (haut, gauche/droite, bas) de la section */
+	font: 1.155em/1.3 My Gill Sans, Lato, sans-serif; /* Police de caractère et espacement entre lignes de la section */
+	box-shadow: 0em .1em 1em #000; /* Ombre de la section */
+	background-color: #bbbbbb; /* Couleur de fond de la section */
+}
+
+/* Styles globaux */
+* {
+	padding: 0; /* Réinitialise les espacements intérieurs */
+	margin: 0; /* Réinitialise les marges */
+	font-family: 'Calibri'; /* Police de caractère par défaut */
+	box-sizing: border-box; /* Inclut les bordures et les remplissages dans le calcul de la taille */
+	border-radius: 12px;  /* Coins arrondis */
+}
+
+/* Styles de la navigation */
+nav {
+	background-color: #222222bb;
+	align-items: center;     /* Les éléments à l'intérieur sont alignés au centre verticalement */
+	justify-content: space-between;     /* Les éléments à l'intérieur sont répartis de manière égale sur l'axe horizontal */
+	padding: center;     /* Le contenu à l'intérieur du nav est centré horizontalement */
+	max-width: 1000px;     /* La largeur maximale est de 1000 pixels */
+	padding: 1px; /* Une bordure intérieure (padding) de 1 pixel est appliquée à tous les côtés de la balise nav */
+	margin: 10px auto 10px;/* Une marge d'espace de 10 pixels en haut, auto à gauche et à droite (centré horizontalement) et de 10 pixels en bas */
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px /* Espacements intérieurs (haut/bas, gauche/droite) */
+}
+
+/* Change la couleur du texte dans nav */
+nav ul li a {
+	color: white; /* Couleur du texte */
+	text-decoration: none;  /* Pas de soulignement du lien */
+	font-weight: bold; /* Gras */
+}
+
+/* Modifie le texte au survol */
+nav ul li a:hover {
+
+	color: gold; /* Couleur du texte au survol */
+	transition: .4s; /* Transition d'animation de 0.4 secondes */
+}
+
+/* Change la couleur du lien quand il est visité */
+nav ul li a:visited {
+	color: #0080ff;
+}
+
+/* Styles du corps HTML */
+html {
+	background-color: #222222bb;
+}
+
+/* Styles du footer */
+footer {
+	background-color: #222222bb;
+	display: flex;
+
+
+	padding: center; /* Espacement intérieur */
+	max-width: 1000px; /* Largeur maximale */
+	padding: 20px; /* Espacement intérieur */
+	margin: 10px auto 10px; /* Marge (haut, gauche/droite, bas) */
+}
+
+/* Style de la balise ID #footertext */
+#footertext {
+	color: white; /* Couleur du texte */
+	margin: auto; /* Centrer le texte horizontalement */
+}
